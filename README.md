@@ -10,5 +10,9 @@ Function as below
 8. The example is ESP32C3 and a 0.96 inch screen with St7735s, the size is 160x80.
 9. After you burn the complie file to the MCU board, the screen which show the menu, you can press the button to choose multifunction.
 10. The default baud rate is 115200, the COM poart base on you computer generate
-11. About the serial command formart as below, you can send your command follow below formart.scan i2c: <s>,dump i2c: <d,addr>,write or read i2c: <w/r,addr,reg,value>,Enter TTL mode and set serial baud rate: <t,baud>"
+11. About the serial command formart as below, you can send your command follow below formart.
+
+dump i2c: <d,addr>
+write or read i2c: <w/r,addr,reg,value>
+Enter TTL mode and set serial baud rate: <t,baud>
     
