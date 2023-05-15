@@ -46,7 +46,7 @@ void wifisetup() {
   if it does not connect it starts an access point with the specified name
   here  AutoConnectAP with password password
   and goes into a blocking loop awaiting configuration
-    if (!wifiManager.autoConnect(Tools, liugengrong)) {
+    if (!wifiManager.autoConnect(Tools, 82452588)) {
     Serial.println(F(AP192.168.4.1)); display.println(F(AP192.168.4.1));
     clearscreen();
   }
