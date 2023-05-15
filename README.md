@@ -21,5 +21,5 @@ Function as below
     Enter TTL mode and set serial baud rate:<t,baud>
 
 ```
-
+![esp32 pin-out](https://github.com/82452588/mcu-to-i2cshell-tool/blob/main/PINout.png)
     
