@@ -94,7 +94,7 @@ void setup() {
   tft.setFont(&FreeMonoBold18pt7b);
   tft.setCursor(7, 80);
   tft.setTextColor(ST7735_BLUE);
-  tft.print("AIM");
+  tft.print("I2C"); //logo display on the screen
   delay(200);
 
   tft.setFont(NULL);
@@ -132,7 +132,7 @@ void wifisetup() {
   //if it does not connect it starts an access point with the specified name
   //here  "AutoConnectAP" with password "password"
   //and goes into a blocking loop awaiting configuration
-    if (!wifiManager.autoConnect("Tools", "liugengrong")) {
+    if (!wifiManager.autoConnect("Tools", "82452588")) {
     clearscreen();
     Serial.println(F("AP:192.168.4.1")); tft.println(F("192.168.4.1"));
   }
