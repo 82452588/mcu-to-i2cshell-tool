@@ -11,7 +11,7 @@ Function as below
 9. After you burn the complie file to the MCU board, the screen which show the menu, you can press the button to choose multifunction.
 10. The default baud rate is 115200, the COM poart base on you computer generate
 11. About the serial command formart as below, you can send your command follow below formart.
-    scan i2c:<s>
+    <u>scan i2c:<s></u>
     
     dump i2c:<d,addr>
 
