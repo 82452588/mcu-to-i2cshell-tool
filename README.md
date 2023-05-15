@@ -13,6 +13,9 @@ Function as below
 11. About the serial command formart as below, you can send your command follow below formart.
 
 dump i2c: <d,addr>
+
 write or read i2c: <w/r,addr,reg,value>
+
 Enter TTL mode and set serial baud rate: <t,baud>
+
     
