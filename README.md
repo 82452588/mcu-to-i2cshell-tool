@@ -11,6 +11,7 @@ Function as below
 9. After you burn the complie file to the MCU board, the screen which show the menu, you can press the button to choose multifunction.
 10. The default baud rate is 115200, the COM port base on you computer generate
 11. About the serial command formart as below, you can send your command follow below formart.
+12. If you have any good suggestion, please let me know, thanks! 
 ```    
     scan i2c:<s>
     
@@ -21,5 +22,6 @@ Function as below
     Enter TTL mode and set serial baud rate:<t,baud>
 
 ```
+![my tool picture](https://github.com/82452588/mcu-to-i2cshell-tool/blob/main/tool.jpg)
 ![esp32 pin-out](https://github.com/82452588/mcu-to-i2cshell-tool/blob/main/PINout.png)
-    
+![st7355s screen schematic](https://github.com/82452588/mcu-to-i2cshell-tool/blob/main/screen.png)
