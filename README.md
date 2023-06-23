@@ -24,9 +24,18 @@ Function as below
     Enter TTL mode and set serial baud rate:<t,baud>
 
 ```
-
-example, you can type <s>  trough serial port to scan the i2c device(s); <d,0c> or <d,2c> means dump the 0x0c or 0x2C device all regesisters; <w,0c,00,01> means write 0x0c device, the register is 00, the vaule is 01; <r,0c,00> means read 0x0c, and the 0x00 is the register vaule of 0x0c device; <t,115200> means enter ttl mode, and the ttl baud rate is 115200, you can press the button to exit ttl mode as you can.
-
+```
+example, you can type <s> trough serial port to scan the i2c device(s);
+```
+```
+<d,0c> or <d,2c> means dump the 0x0c or 0x2C device all regesisters;
+```
+```
+<w,0c,00,01> means write 0x0c device, the register is 00, the vaule is 01; <r,0c,00> means read 0x0c, and the 0x00 is the register vaule of 0x0c device;
+```
+```
+<t,115200> means enter ttl mode, and the ttl baud rate is 115200, you can press the button to exit ttl mode as you can.
+```
 ![my tool picture](https://github.com/82452588/mcu-to-i2cshell-tool/blob/main/mytool.png)
 ![esp32 pin-out](https://github.com/82452588/mcu-to-i2cshell-tool/blob/main/PINout.png)
 ![st7355s screen schematic](https://github.com/82452588/mcu-to-i2cshell-tool/blob/main/screen.png)
